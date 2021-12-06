@@ -1,0 +1,16 @@
+.home__image {
+    width: 100%;
+    mask-image: linear-gradient(to bottom, rgba(0,0,0,1), rgba(0,0,0,0));
+    z-index: -1 !important;
+    margin-bottom: -150px;
+}
+
+.home__products {
+    display: flex;
+    margin: 0 5px;
+}
+
+.product__large {
+    width: 500px;
+    min-width: 100px;
+}
